@@ -37,7 +37,7 @@ public class MyTraceApplication extends Application {
     /**
      * 鹰眼服务ID，开发者创建的鹰眼服务对应的服务ID
      */
-    private int serviceId = 128190;
+    private long serviceId = 128190;
 
     /**
      * entity标识
@@ -109,7 +109,7 @@ public class MyTraceApplication extends Application {
         return client;
     }
 
-    public int getServiceId() {
+    public long getServiceId() {
         return serviceId;
     }
 
